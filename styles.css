@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Courrier';
+}
+
+body{
+	padding: 5px;
+	background-color: black;
+}
+
+@font-face{
+	font-family: 'Courrier';
+	src: url('static/ccb.ttf');
+}
+
+h2{
+	color: white;
+	font-family: 'Courrier';
+	text-align: center;
+	margin-top: 60px;
+	font-size: 30px;
+   
+}
+
+.btn{
+	margin-top: 10px;
+	color: white;
+	padding: 15px;
+	background-color: transparent;
+	border-style: solid;
+	border-radius: 30px;
+	border-color: white;
+}
+
+.boxbnt{
+   
+	text-align: center;
+	margin: auto;
+}
+
