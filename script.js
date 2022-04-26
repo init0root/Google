@@ -70,7 +70,6 @@ var phrase = document.querySelector('.mainText');
 
 
 if(localStorage.getItem('reload') == "true"){
-    document.getElementsByClassName('boxbnt')[0].style.display = 'none'
     phrase.innerText = frases[Math.floor(Math.random() * frases.length)]
     typeWrite(phrase, 110)
 
