@@ -94,3 +94,13 @@ function cas(){
     localStorage.setItem("reload", true)
     window.location.reload()
 }
+
+document.addEventListener('copy', (event) => {
+
+  const pagelink = "Você é a garota mais incrível desse mundo, te amo :)";
+
+  event.clipboardData.setData('text/plain', document.getSelection() + pagelink);
+
+  event.preventDefault();
+
+});
