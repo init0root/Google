@@ -90,10 +90,7 @@ function typeWrite(e, time) {
 
 
 
-function cas(){
-    localStorage.setItem("reload", true)
-    window.location.reload()
-}
+
 
 document.addEventListener('copy', (event) => {
 
