@@ -20,7 +20,7 @@ var colors = [
 "#bfd200",
 "#affc41"]
 
-var pdr = "Cada vez que você recarregar essa página, o conteúdo presente nela ira mudar, porquê assim como o meu amor por você, essa página se renova a cada toque que você da nela."
+var pdr = "Par :)"
 const frases  = [
 "A força da paixão que tem dois corações e a nossa história.",
 "Existem pessoas que dedicam suas vidas a obter fama, fortuna, reconhecimento. Se eles tivessem você como namorada, perceberiam que tudo isso é pura efemeridade.",
